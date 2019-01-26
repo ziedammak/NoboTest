@@ -1,0 +1,69 @@
+
+    .detail-wrapper .txt-color {
+      color: white; }
+    .detail-wrapper .poster {
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 600px;
+      position: relative;
+      display: flex;
+      align-items: center; }
+      @media screen and (max-width: 768px) {
+        .detail-wrapper .poster {
+          padding: 10px 0;
+          text-align: center; } }
+      .detail-wrapper .poster:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-image: linear-gradient(to bottom right, #002f4b, #dc4225);
+        opacity: .6; }
+      .detail-wrapper .poster__image-wrap {
+        text-align: center; }
+        @media screen and (max-width: 768px) {
+          .detail-wrapper .poster__image-wrap {
+            margin-top: 10px; } }
+      .detail-wrapper .poster__image {
+        height: auto;
+        width: 300px;
+        border: 2px solid white;
+        border-radius: 5px; }
+      .detail-wrapper .poster__header {
+        color: white;
+        font-size: 60px; }
+        @media screen and (max-width: 64rem) {
+          .detail-wrapper .poster__header {
+            font-size: 40px; } }
+      .detail-wrapper .poster__overview {
+        margin: 40px 0; }
+    .detail-wrapper .trailers {
+      display: flex;
+      max-width: 100%; }
+      .detail-wrapper .trailers__item {
+        flex-basis: 23%;
+        width: 23%;
+        margin: 1%; }
+      .detail-wrapper .trailers .card {
+        height: 200px; }
+      .detail-wrapper .trailers .poster-image {
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 200px; }
+      .detail-wrapper .trailers .cover {
+        width: 100%;
+        height: 100%;
+        position: absolute; }
+    .detail-wrapper .modal-body {
+      overflow: hidden;
+      padding-bottom: 56.25%;
+      position: relative;
+      height: 0; }
+    .detail-wrapper iframe {
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      position: absolute; }
